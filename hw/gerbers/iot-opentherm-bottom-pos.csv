@@ -1,0 +1,13 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","22u","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",141.698000,-104.343200,90.000000,bottom
+"C2","22u","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",137.126000,-102.260000,-90.000000,bottom
+"C3","10u","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",129.438400,-70.154800,0.000000,bottom
+"C4","100n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",129.641600,-68.376800,0.000000,bottom
+"Q1","BC858","SOT-23",130.903000,-92.964000,0.000000,bottom
+"R1","330R","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",125.823000,-92.964000,-90.000000,bottom
+"R2","220R","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",130.776000,-96.266000,180.000000,bottom
+"R3","100R","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",132.808000,-98.806000,0.000000,bottom
+"R4","330R","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",127.982000,-88.900000,90.000000,bottom
+"R5","1.5k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",134.840000,-92.710000,-90.000000,bottom
+"R6","33R","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",131.284000,-88.011000,180.000000,bottom
+"R7","33R","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",134.840000,-89.027000,-90.000000,bottom

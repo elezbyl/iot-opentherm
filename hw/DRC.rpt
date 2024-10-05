@@ -1,0 +1,52 @@
+** Drc report for iot-opentherm.kicad_pcb **
+** Created on 2024-10-09T12:31:01+0200 **
+
+** Found 11 DRC violations **
+[annular_width]: Annular width (board setup constraints min annular width 8.00 mils; actual 7.87 mils)
+    Rule: board setup constraints; error
+    @(4943.83 mils, 4358.00 mils): PTH pad 6 [GND] of J1
+[clearance]: Clearance violation (netclass 'Power 2' clearance 10.00 mils; actual 7.87 mils)
+    Rule: netclass 'Power 2'; error
+    @(5159.39 mils, 4252.69 mils): Pad 1 [+5V] of J1 on L1.F.Cu.Signals
+    @(5195.80 mils, 4239.89 mils): PTH pad 6 [GND] of J1
+[clearance]: Clearance violation (netclass 'Power 2' clearance 10.00 mils; actual 9.84 mils)
+    Rule: netclass 'Power 2'; error
+    @(5082.61 mils, 4252.69 mils): Pad 4 [unconnected-(J1-ID-Pad4)] of J1 on L1.F.Cu.Signals
+    @(5057.02 mils, 4252.69 mils): Pad 5 [GND] of J1 on L1.F.Cu.Signals
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 19.67 mils)
+    Rule: board setup constraints edge; error
+    @(4960.57 mils, 4415.09 mils): Segment on Edge.Cuts
+    @(4943.83 mils, 4358.00 mils): PTH pad 6 [GND] of J1
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 19.67 mils)
+    Rule: board setup constraints edge; error
+    @(4960.57 mils, 4415.09 mils): Segment on Edge.Cuts
+    @(4961.06 mils, 4358.00 mils): Pad 6 [GND] of J1 on L1.F.Cu.Signals
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 19.69 mils)
+    Rule: board setup constraints edge; error
+    @(5031.43 mils, 4353.08 mils): Segment on Edge.Cuts
+    @(5108.20 mils, 4358.00 mils): Pad 6 [GND] of J1 on L1.F.Cu.Signals
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 19.68 mils)
+    Rule: board setup constraints edge; error
+    @(5660.00 mils, 4415.00 mils): Segment on Edge.Cuts
+    @(5255.35 mils, 4358.00 mils): Pad 6 [GND] of J1 on L1.F.Cu.Signals
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 20.00 mils; actual 19.68 mils)
+    Rule: board setup constraints edge; error
+    @(5660.00 mils, 4415.00 mils): Segment on Edge.Cuts
+    @(5272.57 mils, 4358.00 mils): PTH pad 6 [GND] of J1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(4960.57 mils, 4415.09 mils): Segment on Edge.Cuts
+    @(4955.84 mils, 4405.24 mils): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(5660.00 mils, 4415.00 mils): Segment on Edge.Cuts
+    @(5260.57 mils, 4405.24 mils): Segment on F.Silkscreen
+[invalid_outline]: Board has malformed outline (segment has null or very small length: 0 nm)
+    Local override; error
+    @(4960.57 mils, 4415.09 mils): Segment on Edge.Cuts
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
