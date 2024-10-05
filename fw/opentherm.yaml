@@ -1,0 +1,64 @@
+substitutions:
+  name: my-esp-device-host-name
+  friendly_name: My ESP Device Name
+
+esphome:
+  name: ${name}
+  friendly_name: ${friendly_name}
+  min_version: 2024.6.0
+  name_add_mac_suffix: false
+  project:
+    name: esphome.web
+    version: dev
+
+esp8266:
+  board: esp01_1m
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+# Allow Over-The-Air updates
+ota:
+  - platform: esphome
+    password: ""
+
+# Allow provisioning Wi-Fi via serial
+improv_serial:
+
+wifi:
+  #ssid: "mywifissid"
+  #password: "mywifissidpasswoord"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "ESP Home Fallback Hotspot"
+    password: "pa55word!"
+
+# In combination with the `ap` this allows the user
+# to provision wifi credentials to the device via WiFi AP.
+captive_portal:
+
+dashboard_import:
+  package_import_url: github://esphome/example-configs/esphome-web/esp8266.yaml@main
+  import_full_config: true
+
+external_components:
+# Using mirrored and fixed original esphome-opentherm solution: https://github.com/arthurrump/esphome-opentherm/issues/10
+#  - source: github://arthurrump/esphome-opentherm@main
+  - source: github://Bugracer/esphome-opentherm@main
+    components: [ opentherm ]
+
+# To have a "next url" for improv serial
+web_server:
+
+opentherm:
+  in_pin: 5
+  out_pin: 4
+
+number:
+  - platform: opentherm
+    t_set:
+      name: "Boiler Control setpoint"
