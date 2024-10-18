@@ -84,3 +84,11 @@ BOARD:
 ![Board](pics/pcb_v1p00.jpg)
 
 ![Populated PCB](pics/pcb_v1p00_populated.jpg)
+
+### Version 1.01
+Under construction
+
+Changes in comparison to the v1.00:
+* changed footprints for D1/D2/D3/D4 to bigger one
+* added connectors for OTx and +5VDC
+* added labels for OTx and +5VDC
