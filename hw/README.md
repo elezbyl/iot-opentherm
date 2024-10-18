@@ -72,6 +72,7 @@ BOM can be found [here](bom.csv)
 
 More details about JLCPCB capabilities can be found [here](https://jlcpcb.com/capabilities/pcb-capabilities)
 
+
 ## Design
 ### Version 1.00
 [SCH](doc/iot-opentherm_sch_v1p00.pdf)
@@ -84,6 +85,18 @@ BOARD:
 ![Board](pics/pcb_v1p00.jpg)
 
 ![Board Populated](pics/pcb_v1p00_populated.jpg)
+
+### Version 1.01
+:construction:
+Under construction
+:construction:
+
+Changes in comparison to the v1.00:
+* changed footprints for D1/D2/D3/D4 to bigger one
+* added connectors for OTx and +5VDC
+* GPIOs for OT communication swapped to be aligned with Ihor's Melnyk adapter design and Arthur Rump FW solution
+* added labels for OTx and +5VDC
+
 
 ## Tests
 There are two types of test done. First, static test, with no OpenTherm endpoint device. Second, with OpenTherm endpoint device connected - boiler.

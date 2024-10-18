@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "RF_Module_")(type "KiCad")(uri "${KIPRJMOD/../hw-libraries/kicad/libraries_6plus/footprints/RF_Module_.pretty")(options "")(descr ""))
   (lib (name "Package_SO_")(type "KiCad")(uri "${KIPRJMOD/../hw-libraries/kicad/libraries_6plus/footprints/Package_SO_.pretty")(options "")(descr ""))
+  (lib (name "Connector_TE-Connectivity_")(type "KiCad")(uri "${KIPRJMOD/../hw-libraries/kicad/libraries_6plus/footprints/Connector_TE-Connectivity_.pretty")(options "")(descr ""))
 )
