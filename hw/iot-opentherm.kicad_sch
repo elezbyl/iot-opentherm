@@ -7,7 +7,7 @@
 	(title_block
 		(title "IoT OpenTherm")
 		(date "2024-10-07")
-		(rev "1.00")
+		(rev "1.01")
 		(company "Elezbyl")
 	)
 	(lib_symbols
@@ -5588,7 +5588,7 @@
 		)
 		(uuid "3e5e13b5-27a8-4817-984c-85e96dedee17")
 	)
-	(label "GPIO5"
+	(label "GPIO4"
 		(at 205.74 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5929,7 +5929,7 @@
 		)
 		(uuid "c0427986-789d-43a0-9479-1cdb2311fe11")
 	)
-	(label "GPIO4"
+	(label "GPIO5"
 		(at 205.74 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6149,7 +6149,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Large")
 		(at 222.25 135.89 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -6192,15 +6192,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, large"
-			(at 222.25 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 222.25 135.89 0)
 			(effects
 				(font
@@ -7011,7 +7002,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "519f29ef-92c7-4bb0-8e29-b523319d72c6")
 		(property "Reference" "J5"
@@ -7032,7 +7023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_TE-Connectivity_:TE_282834-2"
 			(at 186.69 90.17 0)
 			(effects
 				(font
@@ -7051,6 +7042,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C592983"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "2112482"
+			(at 186.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "571-282834-2"
 			(at 186.69 90.17 0)
 			(effects
 				(font
@@ -8319,7 +8337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 178.435 62.23 0)
 			(effects
 				(font
@@ -8500,7 +8518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 164.465 62.23 0)
 			(effects
 				(font
@@ -9264,7 +9282,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a445e3cc-4a6f-4091-96ca-6be8179989fb")
 		(property "Reference" "J2"
@@ -9283,7 +9301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_TE-Connectivity_:TE_282834-2"
 			(at 41.91 184.15 0)
 			(effects
 				(font
@@ -9302,6 +9320,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C592983"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" "2112482"
+			(at 41.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "571-282834-2"
 			(at 41.91 184.15 0)
 			(effects
 				(font
@@ -9492,7 +9537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 178.435 52.07 0)
 			(effects
 				(font
@@ -10558,7 +10603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 164.465 52.07 0)
 			(effects
 				(font

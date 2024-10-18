@@ -55,8 +55,8 @@ external_components:
 web_server:
 
 opentherm:
-  in_pin: 5
-  out_pin: 4
+  in_pin: 4
+  out_pin: 5
 
 number:
   - platform: opentherm

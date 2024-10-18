@@ -1,7 +1,7 @@
 ** Drc report for iot-opentherm.kicad_pcb **
-** Created on 2024-10-09T12:31:01+0200 **
+** Created on 2024-11-08T00:02:32+0100 **
 
-** Found 11 DRC violations **
+** Found 13 DRC violations **
 [annular_width]: Annular width (board setup constraints min annular width 8.00 mils; actual 7.87 mils)
     Rule: board setup constraints; error
     @(4943.83 mils, 4358.00 mils): PTH pad 6 [GND] of J1
@@ -41,6 +41,14 @@
     Rule: board setup constraints silk; warning
     @(5660.00 mils, 4415.00 mils): Segment on Edge.Cuts
     @(5260.57 mils, 4405.24 mils): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(5660.00 mils, 4415.00 mils): Segment on Edge.Cuts
+    @(5384.94 mils, 4437.95 mils): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(5660.00 mils, 4415.00 mils): Segment on Edge.Cuts
+    @(5603.06 mils, 4182.05 mils): Segment on F.Silkscreen
 [invalid_outline]: Board has malformed outline (segment has null or very small length: 0 nm)
     Local override; error
     @(4960.57 mils, 4415.09 mils): Segment on Edge.Cuts

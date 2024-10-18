@@ -84,3 +84,14 @@ BOARD:
 ![Board](pics/pcb_v1p00.jpg)
 
 ![Populated PCB](pics/pcb_v1p00_populated.jpg)
+
+### Version 1.01
+:construction:
+Under construction
+:construction:
+
+Changes in comparison to the v1.00:
+* changed footprints for D1/D2/D3/D4 to bigger one
+* added connectors for OTx and +5VDC
+* GPIOs for OT communication swapped to be aligned with Ihor's Melnyk adapter design and Arthur Rump FW solution
+* added labels for OTx and +5VDC
